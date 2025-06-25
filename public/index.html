@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音声翻訳アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>音声翻訳アプリ</h1>
+
+  <div class="buttons">
+    <button onclick="startTranslation('en-to-ja')">英語 → 日本語</button>
+    <button onclick="startTranslation('ja-to-en')">日本語 → 英語</button>
+  </div>
+
+  <p id="modeDisplay">現在のモード：英語 → 日本語</p>
+
+  <div id="originalText">認識結果：</div>
+  <div id="translatedText">翻訳結果：</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

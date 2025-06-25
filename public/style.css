@@ -1,0 +1,45 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+#modeDisplay {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#originalText,
+#translatedText {
+  margin-top: 20px;
+  padding: 10px;
+  border-left: 4px solid #1976d2;
+  background-color: #fff;
+  font-size: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
