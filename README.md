@@ -20,6 +20,7 @@ OPENAI_API_KEY=your_api_key_here
 
 ### 3. パッケージインストール & 起動
 npm install
+
 node server.js
 
 ### 4. アクセス
